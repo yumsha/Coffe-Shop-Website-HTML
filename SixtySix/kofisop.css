@@ -1,0 +1,207 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 219, 164);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: rgb(190, 149, 87);
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    width: 100%;
+}
+
+header h1{
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+}
+
+footer{
+    background-color: rgb(190, 149, 87);
+    color: white;
+    text-align: center;
+    padding: 0.2px;
+    width: 100%;
+}
+
+.sixtysix{
+    text-align: center;
+    color: bisque;
+    padding: 0;
+    margin: 0;
+}
+
+.abtus{
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    text-decoration: none;
+    border-bottom: solid black 5px;
+}
+
+.imageats{
+    border-radius: 10px;
+    max-height: 300px;
+    object-position: left;
+    object-fit: cover;
+    width: 100%;
+    max-width: 1250px;
+}
+
+.abtus{
+    font-family: 'Times New Roman';
+    font-style: oblique;
+    color: white;
+    text-decoration: none;
+    text-size-adjust: 20px;
+
+}
+
+.msg{
+    background-color: rgba(210, 105, 30, 0.356);
+    color: white;
+    text-align: justify;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.about{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 65px;
+    margin: 10px;
+    margin-bottom: 2px;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em auto;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    grid-column: 1;
+}
+
+.menuc{
+    display: flex;
+    flex-wrap: warp;
+    justify-content: center;
+    padding: 20px;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.menutngh{
+    background-color: rgba(210, 105, 30, 0.356);
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s;
+    flex-shrink: 0;
+}
+
+.menutngh:hover {
+    transform: scale(1.05);
+}
+
+.menutngh h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.menutngh p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.menutngh img{
+    width: 50%;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 8px 8px 0 0;
+}
+
+.menuats{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 100px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.gridd{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 15px;
+}
+
+aside{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+.fact{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 50px;
+    margin: 10px;
+    margin-bottom: 2px;
+}
+
+.msgg{
+    background-color: rgba(210, 105, 30, 0.356);
+    color: white;
+    text-align: justify;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 95%;
+}
+
+aside img{
+    border-radius: 10px;
+    max-height: 200px;
+    object-position: left;
+    object-fit: cover;
+    width: 102%;
+    max-width: 800px;
+}
